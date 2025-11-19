@@ -14,7 +14,7 @@ body {
 }
 
 .display {
-    background-color: #222;
+    background-color: #ffff;
     color: #fff;
     padding: 10px;
     text-align: right;
@@ -22,7 +22,7 @@ body {
 
 .display input {
     width: 100%;
-    border: none;
+    border:solid;
     background: none;
     color: #fff;
     font-size: 2em;
