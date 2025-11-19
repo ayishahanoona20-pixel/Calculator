@@ -15,6 +15,7 @@ body {
 
 .display {
     background-color: #222;
+    color: #fff;
     padding: 10px;
     text-align: right;
 }
@@ -22,7 +23,7 @@ body {
 .display input {
     width: 100%;
     border: none;
-    background-color: #222;
+    background: none;
     color: #fff;
     font-size: 2em;
     text-align: right;
@@ -38,18 +39,9 @@ body {
     padding: 20px;
     font-size: 1.5em;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .keys button:hover {
-    background-color: #ddd;
-}
-
-.keys .equal {
-    grid-column: span 2;
-    background-color: #f60;
-    color: #fff;
-}
-
-.keys .zero {
-    grid-column: span 2;
+    background-color: #f0f0f0;
 }
